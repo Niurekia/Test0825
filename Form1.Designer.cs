@@ -44,12 +44,16 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "COM1",
-            "COM2"});
+            "COM2",
+            "COM3",
+            "COM4",
+            "COM5"});
             this.comboBox1.SelectedIndex = 0;
             this.comboBox1.Location = new System.Drawing.Point(100, 51);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(120, 20);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.Text = "COM1";
             // 
             // Conn_Btn
             // 
@@ -114,6 +118,7 @@
             this.Message_Box.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Message_Box.Location = new System.Drawing.Point(182, 252);
             this.Message_Box.Name = "Message_Box";
+            this.Message_Box.ReadOnly = true;
             this.Message_Box.Size = new System.Drawing.Size(336, 19);
             this.Message_Box.TabIndex = 6;
             this.Message_Box.TextChanged += new System.EventHandler(this.Message_Box_TextChanged);
