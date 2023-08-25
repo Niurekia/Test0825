@@ -32,25 +32,25 @@ namespace Test0825
         private void Btn_Led01_On(object sender, EventArgs e)
         {
             Console.WriteLine("Led01 On Clicked");
-            Message_Box.Text="Led01 On Clicked";
+            Message_Box.Text= "Led01 On Success";
         }
 
         private void Btn_Led01_Off(object sender, EventArgs e)
         {
             Console.WriteLine("Led01 Off Clicked");
-            Message_Box.Text = "Led01 Off Clicked";
+            Message_Box.Text = "Led01 Off Success";
         }
 
         private void Btn_Led02_On(object sender, EventArgs e)
         {
             Console.WriteLine("Led02 On Clicked");
-            Message_Box.Text = "Led02 On Clicked";
+            Message_Box.Text = "Led02 On Success";
         }
 
         private void Btn_Led02_Off(object sender, EventArgs e)
         {
             Console.WriteLine("Led02 Off Clicked");
-            Message_Box.Text = "Led02 Off Clicked";
+            Message_Box.Text = "Led02 Off Success";
         }
 
         private void justLabel_Click(object sender, EventArgs e)
